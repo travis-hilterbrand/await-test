@@ -1,4 +1,5 @@
 import "./App.css";
+import { ClassTestView } from "./ClassTestView";
 
 const sleep = (ms: number, label: string): Promise<void> =>
   new Promise((resolve) =>
@@ -55,6 +56,8 @@ function App() {
       >
         Test 3
       </button>
+      <hr />
+      <ClassTestView />
     </div>
   );
 }
